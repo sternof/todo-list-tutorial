@@ -1,10 +1,10 @@
 # Generating a new project
 
 In every project there are different ways to start, most of them concern scaffolding tools like Yeoman or Slush. These tools generate a starter project, help you generate needed files, and take care of building and running the project.  
-Others ways to start are using starter kits, are also called seed projects, which contain all you need to start the project.  
+Other ways to start are using starter kits, are also called seed projects, which contain all you need to start the project.  
 Unlike scaffolding tools, starter kits are relevant only for the initial project. After installation you probably won't use that kit again \(if it's a good starter kit maybe you'll go back to read the documentation\).
 
-Regarding Angular, the most easy way to start is the Angular-CLI which is a scaffolding tool.  we will cover its use in this tutorial.
+Regarding Angular, the easiest way to start is the Angular-CLI which is a scaffolding tool.  we will cover its use in this tutorial.
 
 In this chapter we show all the files and folders that are created by Angular-CLI when you create a new project. We'll start with one important action: changing the application prefix.
 
@@ -57,12 +57,12 @@ after we created the project we will get file in this format
 
 lets skip all the configurations files for now and jump right to the folder structure.  
 the app is the main component of the application from that point we start our app.  
-we will cover components in more depth in later tutorial but the main idea of the project is that we create a components and connect them to each other until we have an application.
+we will cover components in more depth in later tutorials but the main idea of the project is that we create components and connect them to each other until we have an application.
 
 with angular-cli we can generate components and some other files which can help us in the future.  
-to do so we should write `ng generate component <component name>` for components and `ng generate route <route path>` for routes and may more which can be review in [angular cli docs](https://github.com/angular/angular-cli#generating-components-directives-pipes-and-services)
+to do so we should write `ng generate component <component name>` for components and `ng generate route <route path>` for routes and many more which can be review in [angular cli docs](https://github.com/angular/angular-cli#generating-components-directives-pipes-and-services)
 
 now you probably ask how do you see and review your application?  
 your command for that would be `ng serve` and you'll be able to access you app in `http://localhost:4200`  
-and last but not least if you want to build your application for production you should write `ng build` and there you have it, easy way to scaffold you Angular application
+Last but not least if you want to build your application for production you should write `ng build` and there you have it, easy way to scaffold you Angular application
 
